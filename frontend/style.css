@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: -webkit-linear-gradient(top, #b5e0d9, #0d758d);
+
+}
+
+#results{
+    height: 84vh;
+    overflow-y: scroll;
+
+}
+h1 {
+    background-image: linear-gradient(to right, #49b2a8, #0e0a6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+  }
+.response{
+    padding:20px;
+    border:solid 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#prompt{
+   width: 70%;
+   height: 80px;
+   font-size: 25px;
+   resize: none; 
+   margin-left: 30px;
+}
+#ask{
+    height: 83px;
+    width: 15%;
+    background-color: aquamarine;
+    top:-34px;
+    position: relative;
+}
